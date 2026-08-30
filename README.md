@@ -42,6 +42,14 @@ zig build
 zig build -Dtarget=x86_64-linux -Doptimize=ReleaseSafe
 ```
 
+### 云端编译 macOS (Apple Silicon)
+
+不想在本地安装 Zig 时，可以直接使用 GitHub Actions：
+
+1. 打开仓库 `Actions` 页面
+2. 选择 `Build macOS arm64` 工作流并点击 `Run workflow`
+3. 构建完成后，在该次运行的 `Artifacts` 下载 `zed2api-macos-arm64`
+
 ## 使用
 
 ```bash
