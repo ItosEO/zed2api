@@ -3,6 +3,8 @@ name: Build macOS arm64
 on:
   workflow_dispatch:
   push:
+    branches:
+      - "cloud-build-macos-arm64"
     tags:
       - "v*"
 
